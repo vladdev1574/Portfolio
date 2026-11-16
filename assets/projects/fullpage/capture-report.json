@@ -1,0 +1,110 @@
+[
+  {
+    "project": "digitality",
+    "profile": "desktop",
+    "url": "https://www.digitality-agency.com/",
+    "file": "assets/projects/fullpage/digitality-full-desktop.jpg",
+    "width": 2160,
+    "height": 16143,
+    "bytes": 3200696
+  },
+  {
+    "project": "digitality",
+    "profile": "mobile",
+    "url": "https://www.digitality-agency.com/",
+    "file": "assets/projects/fullpage/digitality-full-mobile.jpg",
+    "width": 780,
+    "height": 23444,
+    "bytes": 2301211
+  },
+  {
+    "project": "idl",
+    "profile": "desktop",
+    "url": "https://www.id-labs.sk/",
+    "file": "assets/projects/fullpage/idl-full-desktop.jpg",
+    "width": 2160,
+    "height": 11511,
+    "bytes": 1961330
+  },
+  {
+    "project": "idl",
+    "profile": "mobile",
+    "url": "https://www.id-labs.sk/",
+    "file": "assets/projects/fullpage/idl-full-mobile.jpg",
+    "width": 780,
+    "height": 22388,
+    "bytes": 2670657
+  },
+  {
+    "project": "mfgmatters",
+    "profile": "desktop",
+    "url": "https://www.mfgmatters.com/",
+    "file": "assets/projects/fullpage/mfgmatters-full-desktop.jpg",
+    "width": 2160,
+    "height": 4215,
+    "bytes": 1145717
+  },
+  {
+    "project": "mfgmatters",
+    "profile": "mobile",
+    "url": "https://www.mfgmatters.com/",
+    "file": "assets/projects/fullpage/mfgmatters-full-mobile.jpg",
+    "width": 780,
+    "height": 12100,
+    "bytes": 1447226
+  },
+  {
+    "project": "qhslab",
+    "profile": "desktop",
+    "url": "https://www.qhslab.com/",
+    "file": "assets/projects/fullpage/qhslab-full-desktop.jpg",
+    "width": 2160,
+    "height": 16170,
+    "bytes": 2694118
+  },
+  {
+    "project": "qhslab",
+    "profile": "mobile",
+    "url": "https://www.qhslab.com/",
+    "file": "assets/projects/fullpage/qhslab-full-mobile.jpg",
+    "width": 780,
+    "height": 30896,
+    "bytes": 2497108
+  },
+  {
+    "project": "fynlance",
+    "profile": "desktop",
+    "url": "https://www.fynlance.com/",
+    "file": "assets/projects/fullpage/fynlance-full-desktop.jpg",
+    "width": 2160,
+    "height": 13856,
+    "bytes": 1995317
+  },
+  {
+    "project": "fynlance",
+    "profile": "mobile",
+    "url": "https://www.fynlance.com/",
+    "file": "assets/projects/fullpage/fynlance-full-mobile.jpg",
+    "width": 780,
+    "height": 17862,
+    "bytes": 1466188
+  },
+  {
+    "project": "country-club",
+    "profile": "desktop",
+    "url": "https://www.thecountry.club/sports-bien-etre",
+    "file": "assets/projects/fullpage/country-club-full-desktop.jpg",
+    "width": 2160,
+    "height": 10325,
+    "bytes": 3644813
+  },
+  {
+    "project": "country-club",
+    "profile": "mobile",
+    "url": "https://www.thecountry.club/sports-bien-etre",
+    "file": "assets/projects/fullpage/country-club-full-mobile.jpg",
+    "width": 780,
+    "height": 21454,
+    "bytes": 3414285
+  }
+]

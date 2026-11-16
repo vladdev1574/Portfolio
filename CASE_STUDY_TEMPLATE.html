@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: [PROJECT_NAME] - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .case-study-hero {
+            background: linear-gradient(135deg, #a8c9bd 0%, #c8d9d3 100%);
+            padding: var(--spacing-3xl) var(--spacing-lg);
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .case-study-hero h1 {
+            color: white;
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        .case-study-content {
+            max-width: 900px;
+            margin: var(--spacing-3xl) auto;
+            padding: 0 var(--spacing-lg);
+        }
+        
+        .case-study-section {
+            margin-bottom: var(--spacing-3xl);
+        }
+        
+        .case-study-section h2 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-lg);
+            border-bottom: 3px solid var(--color-accent-light);
+            padding-bottom: var(--spacing-md);
+        }
+        
+        .case-study-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-2xl);
+            padding: var(--spacing-lg);
+            background-color: var(--color-accent-light);
+            border-radius: 8px;
+        }
+        
+        .meta-item h4 {
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .meta-item p {
+            color: var(--color-text-dark);
+            font-weight: 500;
+            margin: 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: var(--spacing-2xl);
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .case-study-image {
+            width: 100%;
+            background: linear-gradient(135deg, var(--color-accent-light), var(--color-accent-gray));
+            border-radius: 8px;
+            padding: 60px;
+            text-align: center;
+            font-size: 5rem;
+            margin: var(--spacing-2xl) 0;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+            color: white;
+            padding: var(--spacing-2xl);
+            border-radius: 8px;
+            text-align: center;
+            margin-top: var(--spacing-3xl);
+        }
+        
+        .cta-section a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="main.html" class="logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="main.html#home">Home</a></li>
+                <li><a href="main.html#about">About</a></li>
+                <li><a href="main.html#works">Works</a></li>
+                <li><a href="main.html#faq">FAQ</a></li>
+                <li><a href="main.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="case-study-hero">
+        <div>
+            <a href="main.html#works" class="back-link" style="color: white;">← Back to Works</a>
+            <h1>[PROJECT_NAME]</h1>
+            <p>[PROJECT_TAGLINE]</p>
+        </div>
+    </div>
+
+    <div class="case-study-content">
+        <div class="case-study-meta">
+            <div class="meta-item">
+                <h4>Platform</h4>
+                <p>[PLATFORM - e.g., Webflow/Squarespace]</p>
+            </div>
+            <div class="meta-item">
+                <h4>Timeline</h4>
+                <p>[DURATION - e.g., 6 weeks]</p>
+            </div>
+            <div class="meta-item">
+                <h4>My Role</h4>
+                <p>Designer & Developer</p>
+            </div>
+            <div class="meta-item">
+                <h4>Key Features</h4>
+                <p>[KEY_FEATURES]</p>
+            </div>
+        </div>
+
+        <div class="case-study-section">
+            <h2>Project Overview</h2>
+            <p>[PROJECT_OVERVIEW - 2-3 sentences about the client and project]</p>
+        </div>
+
+        <div class="case-study-section">
+            <h2>The Challenge</h2>
+            <p>The client needed:</p>
+            <ul style="padding-left: 2rem;">
+                <li>[CHALLENGE_1]</li>
+                <li>[CHALLENGE_2]</li>
+                <li>[CHALLENGE_3]</li>
+                <li>[CHALLENGE_4]</li>
+                <li>[CHALLENGE_5]</li>
+            </ul>
+        </div>
+
+        <div class="case-study-section">
+            <h2>Solution</h2>
+            <p>[SOLUTION_INTRO]</p>
+            <ul style="padding-left: 2rem;">
+                <li><strong>[FEATURE_1_NAME]:</strong> [Feature 1 description]</li>
+                <li><strong>[FEATURE_2_NAME]:</strong> [Feature 2 description]</li>
+                <li><strong>[FEATURE_3_NAME]:</strong> [Feature 3 description]</li>
+                <li><strong>[FEATURE_4_NAME]:</strong> [Feature 4 description]</li>
+                <li><strong>[FEATURE_5_NAME]:</strong> [Feature 5 description]</li>
+            </ul>
+        </div>
+
+        <div class="case-study-image">
+            [EMOJI]
+        </div>
+
+        <div class="case-study-section">
+            <h2>Results & Impact</h2>
+            <p>The new website has significantly impacted [Client Name]'s business metrics:</p>
+            <ul style="padding-left: 2rem;">
+                <li>📈 [METRIC_1]</li>
+                <li>⏱️ [METRIC_2]</li>
+                <li>⭐ [METRIC_3]</li>
+                <li>📱 [METRIC_4]</li>
+                <li>📊 [METRIC_5]</li>
+            </ul>
+        </div>
+
+        <div class="case-study-section">
+            <h2>Key Learnings</h2>
+            <p>This project reinforced the importance of:</p>
+            <ul style="padding-left: 2rem;">
+                <li>[LEARNING_1]</li>
+                <li>[LEARNING_2]</li>
+                <li>[LEARNING_3]</li>
+                <li>[LEARNING_4]</li>
+                <li>[LEARNING_5]</li>
+            </ul>
+        </div>
+
+        <div class="cta-section">
+            <h3>Interested in a project like this?</h3>
+            <p>Let's discuss how we can create something amazing for your brand.</p>
+            <a href="main.html#contact" style="display: inline-block; margin-top: var(--spacing-lg); padding: 0.75rem 1.5rem; background: white; color: var(--color-primary); border-radius: 6px;">Start Your Project</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Dribbble">Dribbble</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+INSTRUCTIONS FOR USING THIS TEMPLATE:
+
+1. Save this file with a name like: case-study-[project-name].html
+   Example: case-study-digitality.html
+
+2. Replace all placeholders with actual content:
+   [PROJECT_NAME] - Your project name
+   [PROJECT_TAGLINE] - Short description
+   [PLATFORM] - Webflow or Squarespace
+   [DURATION] - Time taken (e.g., "6 weeks")
+   [KEY_FEATURES] - Main features separated by commas
+   [PROJECT_OVERVIEW] - 2-3 sentence description
+   [CHALLENGE_1-5] - List of client challenges
+   [SOLUTION_INTRO] - Introduction to your solution
+   [FEATURE_1-5_NAME] - Feature names
+   [FEATURE descriptions] - Detailed feature descriptions
+   [EMOJI] - Use an appropriate emoji
+   [METRIC_1-5] - Business results and metrics
+   [LEARNING_1-5] - Key learnings from the project
+
+3. Update the <title> tag with your project name
+
+4. In main.html, update the projects array to link to this case study:
+   - Add "caseStudyUrl": "case-study-[project-name].html" to the project object
+   - Update the button onclick to navigate to this file
+
+EXAMPLE FOR DIGITALITY PROJECT:
+================================================
+
+[PROJECT_NAME] → Digitality
+[PROJECT_TAGLINE] → Digital Transformation & Agency Services
+[PLATFORM] → Webflow
+[DURATION] → 5 weeks
+[KEY_FEATURES] → Custom Interactions, CMS, Animations
+[PROJECT_OVERVIEW] → Digitality is a digital transformation agency helping businesses modernize their operations. They needed a website that would showcase their expertise, case studies, and service offerings while establishing thought leadership in the industry.
+[CHALLENGE_1] → Create a website that stands out in a competitive agency market
+[CHALLENGE_2] → Showcase complex services in an easy-to-understand way
+[CHALLENGE_3] → Generate qualified leads through strategic CTAs
+[CHALLENGE_4] → Enable easy updates without technical knowledge
+[CHALLENGE_5] → Ensure excellent performance and SEO visibility
+
+[SOLUTION_INTRO] → I developed a comprehensive Webflow solution that combines stunning design with strategic functionality.
+
+[FEATURE_1_NAME] → Interactive Service Showcase
+[Feature 1 description] → Custom interactions that reveal service details on hover or click
+
+[FEATURE_2_NAME] → Case Study Gallery
+[Feature 2 description] → CMS-powered gallery that showcases client success stories
+
+[FEATURE_3_NAME] → Lead Capture Forms
+[Feature 3 description] → Strategic forms optimized for conversion at key points
+
+[FEATURE_4_NAME] → Team Profiles
+[Feature 4 description] → Beautiful team member pages with expertise highlights
+
+[FEATURE_5_NAME] → Blog Integration
+[Feature 5 description] → Built-in blog for thought leadership and SEO
+
+[METRIC_1] → 40% increase in qualified leads
+[METRIC_2] → 60% faster page load times
+[METRIC_3] → 98 PageSpeed Insight score
+[METRIC_4] → 100% mobile responsive
+[METRIC_5] → 3x increase in average session duration
+
+[EMOJI] → 💻
+
+================================================
+-->
