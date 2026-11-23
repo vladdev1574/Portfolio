@@ -30,7 +30,7 @@ const caseReels = {
   "case-study-country-club.html": { title: "Scroll the destination experience", domain: "thecountry.club", desktop: ["assets/projects/fullpage/country-club-full-desktop.jpg", 2160, 10325, "Full desktop view of The Country Club sports website"], mobile: ["assets/projects/fullpage/country-club-full-mobile.jpg", 780, 21454, "Full mobile view of The Country Club sports website"] }
 };
 
-const currentPage = window.location.pathname.split("/").pop().toLowerCase() || "main.html";
+const currentPage = window.location.pathname.split("/").pop().toLowerCase() || "index.html";
 const reelData = caseReels[currentPage];
 const caseMain = document.querySelector(".case-page main");
 
